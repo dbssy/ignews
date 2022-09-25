@@ -1,0 +1,45 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "post",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Block",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "heading1",
+        "text": "Certainly",
+        "spans": []
+      },
+      {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f",
+        "alt": null,
+        "copyright": null,
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        }
+      },
+      {
+        "type": "paragraph",
+        "text": "Culpa ipsum qui minim et eiusmod minim reprehenderit culpa velit. Sit aute exercitation id eiusmod magna pariatur magna sint non nulla aliquip. Aliquip cupidatat culpa est commodo culpa officia non pariatur sit reprehenderit eiusmod voluptate ea consectetur aute.",
+        "spans": []
+      }
+    ],
+    "slices": []
+  }
+}
