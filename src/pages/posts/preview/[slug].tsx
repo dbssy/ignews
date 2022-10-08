@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect } from 'react';
 import { useSession } from 'next-auth/client';
 import { useRouter } from 'next/router';
@@ -25,9 +26,9 @@ export default function PostPreview({ post }: PostPreviewProps) {
 
   useEffect(() => {
     if (session?.activeSubscription) {
-      router.push(`/posts/${post.slug}`);
+      router.push(`/posts/${post.slug}`)
     }
-  }, [session, post.slug, router]);
+  }, [session]);
 
   return (
     <>
